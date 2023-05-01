@@ -1,0 +1,39 @@
+.speed{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 230px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 25%;
+    gap: 10px;
+
+    .num{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .circle{
+        border: 2px solid #66F8FC;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        border-radius: 50px;
+        height: 2px;
+        
+        >div{
+            cursor: pointer;
+            background: #303847;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+        }
+
+        .activeSpeed{
+            background: #66F8FC;
+        }
+    }
+}

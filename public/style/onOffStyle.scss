@@ -1,0 +1,49 @@
+.onOff_battery{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 20px;
+
+    .onOff{
+        display: flex;
+        align-items: center;
+
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+            padding: 5px 0;
+            background: linear-gradient(180deg, #DFDFDF 0%, #B4B1B1 100%);
+            width: 90px;
+            color: #727070;
+
+            &:nth-child(2){
+                border-radius: 0px 100px 100px 0px;
+            }
+            &:nth-child(1){
+                border-radius: 100px 0px 0px 100px;
+            }
+        }
+
+        .active{
+            color: #66F8FC;
+            background: linear-gradient(180deg, #363636 0%, #1E1E1E 100%);
+        }
+    }
+
+    .battery{
+        position: relative;
+        .procent{
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            margin: auto;
+            top: 15px;
+            color: #B4B1B1;
+        }
+    }
+}

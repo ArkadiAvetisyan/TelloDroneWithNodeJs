@@ -1,0 +1,139 @@
+
+.videoWrapper{
+    width: 100vw;
+    height: 100vh;
+    .video{
+        display: flex;
+        width: 100%;
+
+        >canvas{
+            width: 50%;
+        }
+    }
+}
+
+.mainBtns{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+
+
+.displayNone {
+    display: none;
+}
+
+.commandsBtn{
+    >div{
+        box-shadow:10px 10px 20px rgba(0, 0, 0, 0.437);
+        cursor: pointer;;
+        position: absolute;
+        background: #1C202A;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 1s;
+    }
+}
+
+.leftSideButtons{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: 150px;
+    height: 150px;
+    
+    .upBtn {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .downBtn{
+        margin: 0 auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .cwBtn{
+        margin: auto 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .ccwBtn{
+        margin: auto 0;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+.rigthSideButtons{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 150px;
+    height: 150px;
+
+    .forwardBtn{
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .backBtn{
+        margin: 0 auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .leftBtn{
+        margin: auto 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .rigthBtn{
+        margin: auto 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.activeBtn{
+    background-color: aqua !important;
+}
+
+.top_left_side{
+    position: absolute;
+    display: flex;
+
+    top: 0px;
+
+    .with_a_i{
+        
+        >svg{
+            cursor: pointer;
+        }
+    }
+
+    .unActiveAi{
+        >svg{
+            >path:first-of-type{
+                fill: #B4B1B1;
+            }
+        }
+    }
+}

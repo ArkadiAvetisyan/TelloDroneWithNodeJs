@@ -1,0 +1,31 @@
+.flipBtnsWrapper{
+    position: absolute;
+    bottom: 15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: 194px;
+    // background: #1C202A;
+    border-radius: 50px;
+
+    >div{
+        box-shadow:10px 10px 20px rgba(0, 0, 0, 0.437);
+        padding: 25px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 120px;
+        background: #1C202A;
+        border-radius: 20px;
+        border: #96F2F8 1px solid;
+    }
+    
+    
+}
